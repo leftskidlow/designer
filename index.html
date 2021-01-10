@@ -18,20 +18,77 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header>
-            <h1 class="banner">Website Styles and Designs</h1>
+            <h1 class="banner center">Website Styles and Designs</h1>
             <nav>
                 <ul class="nav_list">
-                    <li>Colors</li>
-                    <li>Fonts</li>
-                    <li>Texts</li>
-                    <li>Images</li>
+                    <li><a href="#color" class="nav_list_link">Colors</a></li>
+                    <li><a href="#fonts" class="nav_list_link">Fonts</a></li>
+                    <li><a href="#texts" class="nav_list_link">Texts</a></li>
+                    <li><a href="#images" class="nav_list_link">Images</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section>
+            <section class="main_section" name="color">
+                <h2 class="section_title">Super cool stuff about colors</h2>
+                <p>There are lots of ways to set, retrieve or manipulate colors through HTML and CSS.
+                    Luckily for us it as a very inuitive process, we'll go over some of them here.
+                    One of the key concepts we will touch on is the different ways to set colors, whether that
+                    be through RGB, HSL, Hexadecimal or default colors.
+                </p>
+                <div class="color_box_holder center">
+                        <div class="color_box red_word">
+                            <p>
+                                Red<br>
+                                background-color: red;
+                            </p>
+                        </div>
+                        <div class="color_box red_rgb">
+                            <p>
+                                Red<br>
+                                background-color: rgb(255,0,0);
+                            </p>
+                        </div>
+                        <div class="color_box red_hsl">
+                            <p>
+                                Red<br>
+                                background-color: hsl(0, 100%, 50%);
+                            </p>
+                        </div>
+                        <div class="color_box red_word alpha">
+                            <p>
+                                Red Hex (#FF0000)<br>
+                                with opacity set to 50%
+                            </p>
+                        </div>
+                </div>
+                <p>
+                    As you can see, the last box has it's opacity, also called alpha, changed. This is essentially how see through an item
+                    is on the screen. It will blend in with other objects as well. In the picture below you can see two
+                    colors, red and blue, both with opacity set to 50% and overlapping.
+                </p>
+                <div class="color_circle_holder">
+                    <div class="color_circle red_word alpha"></div>
+                    <div class="color_circle right blue_word alpha"></div>
+                </div>
 
+                <p>
+                    CSS has a variety of built in colors that are available for use without using any other type of encoding. Take a second to
+                    browse over all the colors below, quite a bit eh?
+                </p>
+            </section>
+
+            <section class="main_section" name="font">
+                <h2 class="section_title">Wow, look at all the pretty fonts</h2>
+            </section>
+
+            <section class="main_section" name="texts">
+                <h2 class="section_title">Bet you didn't know you could do this with a font</h2>
+            </section>
+
+            <section class="main_section" name="images">
+                <h2 class="section_title">lets play with images</h2>
             </section>
 
         </main>

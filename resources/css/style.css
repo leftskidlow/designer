@@ -1,3 +1,135 @@
-ul .nav_list{
-    font-family: Georgia;
+/*
+ * @author: Tim Miller
+ * 2021
+ */
+
+/* Universal Styles */
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.center {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* Header */
+
+
+header {
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.banner {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.nav_list_link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+/* Main */
+
+main {
+    position:relative;
+    top: 120px;
+    overflow: scroll;
+    display: flexbox;
+}
+
+/* Section */
+.main_section {
+    width: 90%;
+    display: flexbox;
+    border: 2px groove black;
+    margin: 10px 50px;
+    float: left;
+}
+
+.section_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 1rem;
+}
+.main_section p {
+    margin: .5rem 1rem;
+    line-height: 1.4;
+}
+
+/* Color Boxes */
+
+.color_box_holder {
+    width: 98%;
+    display: flex;
+    margin: 5px auto;
+}
+
+.color_box_row {
+    width: 100%;
+    display:flexbox;
+}
+
+.color_box {
+    width: 20%;
+    height: 50px;
+    margin: .25rem auto;
+    display: inline-flex;
+    align-items: center;
+}
+.red_word {
+    background-color: red;
+}
+.alpha {
+    opacity: 50%;
+}
+.red_rgb {
+    background-color: rgb(255, 0,0);
+}
+.red_hsl {
+    background-color:hsl(0, 100%, 50%);
+}
+.blue_word {
+    background-color: blue;
+}
+.alpha {
+    opacity: 50%;
+}
+.color_box p {
+    width: 100%;
+    font-size: .75rem;
+    text-align: center;
+}
+.color_circle_holder {
+    width: 98%;
+    display: flex;
+    margin: 5px auto;
+}
+.color_circle {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.right {
+    position: relative;
+    left: -100px;
+}
+
+/* Footer */
