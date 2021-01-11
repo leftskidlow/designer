@@ -80,6 +80,30 @@ main {
     line-height: 1.4;
 }
 
+.main_section h1 {
+    margin: .15rem 1rem;
+    font-size: 3.5rem;
+}
+.main_section h2 {
+    margin: .15rem 1rem;
+    font-size: 3rem;
+}
+.main_section h3 {
+    margin: .15rem 1rem;
+    font-size: 2.5rem;
+}
+.main_section h4 {
+    margin: .15rem 1rem;
+    font-size: 2rem;
+}
+.main_section h5 {
+    margin: .15rem 1rem;
+    font-size: 1.7rem;
+}
+.main_section h6 {
+    margin: .15rem 1rem;
+    font-size: 1.4rem;
+}
 /* Color Boxes */
 
 .color_box_holder {
@@ -126,7 +150,7 @@ main {
 .color_circle_holder {
     width: 98%;
     display: flex;
-    margin: 5px 75  px;
+    margin: 5px 75px;
     float: left;
 }
 .color_circle {
@@ -163,5 +187,68 @@ main {
     align-items: center;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+/* Font Section*/
+.font_title {
+    font-size: 2.5rem !important;
+    text-decoration: underline;
+    margin: .5rem 1rem;
+}
+
+.east_sea {
+    font-family: "East Sea Dokdo";
+    font-size: 1.5rem;
+}
+
+.indie_flower {
+    font-family: "Indie Flower";
+    font-size: 1.5rem;
+}
+
+.monoton {
+    font-family: Monoton;
+    font-size: 1.5rem;
+}
+
+.font_section {
+    display: inline-block;
+    width: 98%;
+    margin: 5px auto;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
+/* Image Section */
+.image_container {
+    width: 95%;
+    display: flex;
+    margin: 10px auto;
+}
+.image {
+    display: inline-flex;
+    margin: 5px auto;
+}
+img {
+    max-width: 350px;
+    height: auto;
+}
+
+.circle {   
+    border-radius: 50%;
+}
+
+.rounded {
+    border-radius: 15px;
+}
+
+.bordered {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
 }
 /* Footer */
